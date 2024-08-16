@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 2vh 5%;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.tittle {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.navbar ul li {
+  font-size: 18px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  text-align: justify;
+}
+
+.active {
+  color: aquamarine;
+}
+
+.main {
+  width: 90%;
+  background-color: blanchedalmond;
+  margin: auto;
+}
